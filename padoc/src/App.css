@@ -1,0 +1,83 @@
+.home{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.front_page{
+    height:100%;
+    width:65%;
+    min-width:200px;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+.App{
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    border:1px solid;
+    width:30%;
+    min-width:300px;
+    margin:2%;
+}
+img{
+    width:81%;
+    min-width:200px;
+    margin:auto;
+}
+.status{
+    justify-content: center;
+    text-align: center;
+}
+.data{
+    border:1px solid;
+    float:right;
+    width:40%;
+    margin: 2%;
+}
+.login{
+    text-align: center;
+}
+.signup h1,.login h1{
+    font-family: 'DM Sans', sans-serif;
+    font-size:50px;
+    color: #133f26;
+    font-weight: 900;
+}
+.signup select{
+    height: 40px;
+    border-radius: 10px;
+    font-weight:500;
+    font-size: 20px;
+}
+form{
+    margin-top:5%;
+    text-align: center;
+}
+form input[type=email]{
+    width:80%;
+    height:30px;
+    margin:auto;
+    margin-top:20px;
+    text-align:center;
+}
+form button[type=submit]{
+    background-color: #178045;
+    height:40px;
+    width: 80%;
+    color: white;
+    font-weight: 400;
+    font-size:20px;
+    border-radius: 20px;
+    margin:10px;
+}
+#google{
+    background-color: #178045;
+    height:40px;
+    width: 80%;
+    color: white;
+    font-weight: 400;
+    font-size:20px;
+    border-radius: 20px;
+}
