@@ -1,0 +1,89 @@
+body{
+  background-color: #EFF2E9;
+  display: flex;
+  flex-direction: column;
+}
+
+p{
+  font-family: 'DM Sans', sans-serif;
+ 
+}
+
+/* ************************************ Navbar ************************************************** */
+.web-name{
+  color: #133F26;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  background-color: #DAE1D6;
+  max-width: 20%;
+  height: 50px;
+  border-radius: 8px;
+}
+
+.navbar{
+  background-color: #DAE1D6;
+  /* border-radius: 10px; */
+  padding-top: 0;
+}
+
+.logo-class{
+  max-width: 50px;
+}
+
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav-item{
+  margin: auto 5px;
+}
+
+/**************************************** mddle  body **********************************************/
+
+.img-text{
+  font-family: 'DM Sans', sans-serif;
+  z-index: 100;
+  color: #EFF2E9;
+  font-weight: bold;
+  position: absolute;
+  top: 115px;
+  left: 20px;
+  
+}
+
+/* .main-img{
+  /* width:initial; 
+  width: fit-content;
+  overflow-x: hidden;
+  background-size: cover;
+} */
+
+.cont2 {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 700px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../Images/doctor-front-page.jpg");
+}
+
+
+/**************************************** Features **********************************************/
+
+.feature-container{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+
+.feature-description{
+  font-weight: bold;
+  font-size: 25px;
+  color: #133F26;
+}
+
+.appointment-img{
+  size:25%;
+}
